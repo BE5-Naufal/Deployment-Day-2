@@ -1,6 +1,6 @@
 services:
   deploy:
-    build: .
+    app: .
     restart: always
     ports:
       - 8000:8000
