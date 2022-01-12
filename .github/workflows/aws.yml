@@ -16,6 +16,6 @@ jobs:
         script: |
           echo ${{ secrets.USERNAME }}
           cd deploy
-          cd Deployment-Day-2$
+          cd Deployment-Day-2
           git pull origin main
           docker-compose down && docker-compose up --build -d
